@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Git will track that directory and the files in it. And the .git directory, containing all the tracking infirmation, is created.
+Git will track that directory and the files in it. And the .git directory, containing all the tracking information, is created.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area retains files that were changed (files are added by the command git add), but still not committed. Changes can still be made to these files before the commit, which allows us to better control the logical sequence of changes reflected in the commits.
