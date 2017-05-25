@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git will track that directory and the files in it. And the .git directory, containing all the tracking infirmation, is created.
