@@ -5,3 +5,7 @@ Git will track that directory and the files in it. And the .git directory, conta
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area retains files that were changed (files are added by the command git add), but still not committed. Changes can still be made to these files before the commit, which allows us to better control the logical sequence of changes reflected in the commits.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can add files to the staging area and compare them to the last commit using the git diff --staged command
