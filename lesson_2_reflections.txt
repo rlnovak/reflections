@@ -9,3 +9,19 @@ The staging area retains files that were changed (files are added by the command
 How can you use the staging area to make sure you have one commit per logical change?
 
 I can add files to the staging area and compare them to the last commit using the git diff --staged command
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches allow me to concentrate on specific changes related to specific features without messing with a working code/branch.
+
+How do the diagrams help you visualize the branch structure?
+
+They show graphically where the branching actually happened, and the chronology of the commits in each branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The branches will be united in one single branch, and all the changes and the history of both branches will be interleaved, in chronological order.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merge keeps the history of the commits (keeps track of them) and puts together all modifications that different users might have done. In case there is a conflict, like two users editing the same line of code, the merge command will return a warning about the conflict and mark its position in the file. Then the user will have to manually alter the files, after discussing the modifications with the other collaborators.
